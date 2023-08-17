@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>tish</title>
+    <link href="https://fonts.googleapis.com/css2?family=Shadows+Into+Light&family=IBM+Plex+Sans&display=swap" rel="stylesheet">
+  
+    <link rel="stylesheet" type="text/css" href="notaat.css" />
+    <audio id="myAudio" src="bad sounds.mp3" preload="auto"></audio>
+    <audio id="MEaudio" src="meeee.mp3" preload="auto"></audio>
+    <audio id="TalkAudio" src="blabla.mp3" preload="auto"></audio>
+    <audio id="SoundsAudio" src="Brlbub.mp3" preload="auto"></audio>
+    <audio id="ReadAudio" src="Pages.mp3" preload="auto"></audio>
+    <audio id="TennisAudio" src="racket sounds.mp3" preload="auto"></audio>
+    <audio id="ScrollAudio" src="OOF SOUND EFFECT NO COPYRIGHT  ROBLOX DEATH SOUND FOR EDITING.mp3" preload="auto"></audio>
+
+
+   
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.0/p5.js"></script>
+    <script src="stars w trail.js"></script> <!-- Link to your external JavaScript file -->
+
+
+    
+   
+   <style>
+    body {
+        background-color: #000000;
+        color: #4e0566;
+        text-align: center;
+        margin: 0;
+        
+    }
+
+    h1 {
+        text-align: center;
+        font-size: 4vw;
+        font-family: "Shadows Into Light", cursive;
+    }
+
+    p {
+        font-family: "IBM Plex Sans", sans-serif;
+        font-size: 1.5vw;
+        color: #4e0566;
+        margin-top: -60px;
+        font-style: italic;
+    }
+    
+
+    .img {
+        max-width: 900px;
+        height: auto;
+        display: flex;
+        box-sizing: border-box;
+    }
+
+    .img#chroniclesImage {
+        cursor: pointer;
+    }
+    
+    .img#talkingImage,
+    .img#soundsImage,
+    .img#readingImage,
+    .img#tennisImage {
+        cursor: pointer;
+    }
+
+    .particles {
+        position: fixed;
+        width: 100%;
+        height: 100%;
+        pointer-events: none;
+        z-index: -1;
+        opacity: 0.5;
+        background-image: url("galaxy\ img.jpg"); /* Replace with your particle image path */
+        background-repeat: repeat-y; /* Repeat vertically */
+        background-size: auto; /* Adjust as needed */
+    }
+
+
+    </style>
+</head>
+
+
+<body>
+  <div class="particles"></div>
+
+  <img
+  src="Chronicles no stars.gif"
+  class="img child New title gif 1"
+  style="
+    width: 860px; 
+    height: 484px; 
+    display: flex;
+    position: absolute;
+    left: 50%; 
+    top: 107px;
+    transform: translateX(-50%); 
+    box-sizing: border-box;
+  "
+  id="chroniclesImage" />
+
+
+        
+        <p
+        id="allThingsRandom"
+        style="
+          width: 306px;
+          height: 54px;
+          display: flex;
+          position: absolute;
+          left: 1049px;
+          top: 515px;
+          justify-content: flex-start;
+          text-align: left;
+          margin: 0;
+          box-sizing: border-box;
+          font-size: 28px;
+          font-family: IBM Plex Sans;
+          font-weight: 600;
+          color: #4e0566;
+          letter-spacing: 0;
+          text-overflow: ellipsis;
+          overflow: hidden;"
+        >all things random</p>
+        
+        <p
+        id="aboutTheAuthor"
+        style="
+          width: 307px;
+          height: 54px;
+          display: flex;
+          position: absolute;
+          left: 215px;
+          top: 748px;
+          justify-content: flex-start;
+          text-align: left;
+          margin: 0;
+          box-sizing: border-box;
+          font-size: 32px;
+          font-family: IBM Plex Sans;
+          font-weight: 600;
+          color: #4e0566;
+          letter-spacing: 0;
+          text-overflow: ellipsis;
+          overflow: hidden;"
+        >About the author</p>
+
+      <p
+        style="
+          width: 306px;
+          height: 54px;
+          display: flex;
+          position: absolute;
+          left: 542px;
+          top: 1100px;
+          justify-content: flex-start;
+          text-align: left;
+          margin: 0;
+          box-sizing: border-box;
+          font-size: 28px;
+          font-family: IBM Plex Sans;
+          font-weight: 400;
+          color: #4e0566;
+          letter-spacing: 0;
+          text-overflow: ellipsis;
+          overflow: hidden;"
+        >i talk</p>
+
+        <p
+        style="
+          width: 306px;
+          height: 54px;
+          display: flex;
+          position: absolute;
+          left: 766px;
+          top: 1397px;
+          justify-content: flex-start;
+          text-align: left;
+          margin: 0;
+          box-sizing: border-box;
+          font-size: 28px;
+          font-family: IBM Plex Sans;
+          font-weight: 400;
+          color: #4e0566;
+          letter-spacing: 0;
+          text-overflow: ellipsis;
+          overflow: hidden;"
+        >i make sounds</p>
+
+      <p
+        style="
+          width: 306px;
+          height: 54px;
+          display: flex;
+          position: absolute;
+          left: 866px;
+          top: 1991px;
+          justify-content: flex-start;
+          text-align: left;
+          margin: 0;
+          box-sizing: border-box;
+          font-size: 28px;
+          font-family: IBM Plex Sans;
+          font-weight: 400;
+          color: #4e0566;
+          letter-spacing: 0;
+          text-overflow: ellipsis;
+          overflow: hidden;"
+        >i play</p>
+
+      <p
+        style="
+          width: 306px;
+          height: 54px;
+          display: flex;
+          position: absolute;
+          left: 510px;
+          top: 1694px;
+          justify-content: flex-start;
+          text-align: left;
+          margin: 0;
+          box-sizing: border-box;
+          font-size: 28px;
+          font-family: IBM Plex Sans;
+          font-weight: 400;
+          color: #4e0566;
+          letter-spacing: 0;
+          text-overflow: ellipsis;
+          overflow: hidden;"
+        >i read</p>
+
+        <p id="scrollToTop" class="scroll-link">
+        the end</p>
+
+
+
+           <img
+           src="About me title PNG.png"
+           class="img child About me title PNG 1"
+           style="
+             width: 900px; 
+             height: auto; 
+             display: flex;                                                          
+             position: absolute;
+             left: 130px;
+             top: 660px;
+             box-sizing: border-box;"
+           id="aboutMeImage" />
+          
+       
+        
+        <img
+        src="Talking gif.gif"
+        class="img child Talking gif 1"
+        style="
+          width: 900px; 
+          height: auto; 
+          display: flex;
+          position: absolute;
+          left: 115px;
+          top: 860px;
+          box-sizing: border-box;"
+           id="talkingImage"/>
+
+        <img
+        src="Sounds gif.gif"
+        class="img child Sounds gif 1"
+        style="
+          width: 900px; 
+          height: auto; 
+          display: flex;
+          position: absolute;
+          left: 500px;
+          top: 1120px;
+          box-sizing: border-box;"
+           id="soundsImage"/>
+
+        <img
+        src="Reading gif reverse.gif"
+        class="img child Reading gif 1"
+        style="
+          width: 900px; 
+          height: auto;
+          display: flex;
+          position: absolute;
+          left: -260px;
+          top: 1420px;
+          box-sizing: border-box;"
+          id="readingImage"/>
+          
+        <img
+        src="New scratch out.png"
+        id="scratch"
+        class="img child New scratch out 1"
+        style="
+          width: 900px; 
+          height: auto; 
+          display: flex;
+          position: absolute;
+          left: 100px;
+          top: 530px;
+          box-sizing: border-box;"/>
+          
+        <img
+        src="Tennis reverse.gif"
+        class="img child Tennis 1"
+        style="
+          width: 900px; 
+          height: auto; 
+          display: flex;
+          position: absolute;
+          left: 650px;
+          top: 1799px;
+          box-sizing: border-box;"
+          id="tennisImage"/>
+          
+        </div>
+        </div> </div>
+  
+  
+
+
+  
+
+  
+    <script>
+      const chroniclesImage = document.getElementById("chroniclesImage");
+      const chroniclesAudio = document.getElementById("myAudio");
+      const aboutMeImage = document.getElementById("aboutMeImage");
+      const aboutMeAudio = document.getElementById("MEaudio");
+      const talkingImage = document.getElementById("talkingImage");
+      const talkAudio = document.getElementById("TalkAudio");
+      const soundsImage = document.getElementById("soundsImage"); 
+      const soundsAudio = document.getElementById("SoundsAudio");
+      const readingImage = document.getElementById("readingImage");
+      const readAudio = document.getElementById("ReadAudio");
+      const tennisImage = document.getElementById("tennisImage");
+      const tennisAudio = document.getElementById("TennisAudio");
+      const scrollToTop = document.getElementById("scrollToTop");
+const scrollAudio = document.getElementById("ScrollAudio");
+  
+      chroniclesImage.addEventListener("click", function() {
+        chroniclesAudio.play();
+      });
+  
+      aboutMeImage.addEventListener("click", function() {
+        console.log("aboutMeImage clicked");
+        aboutMeAudio.play();
+      });
+  
+      talkingImage.addEventListener("click", function() {
+        talkAudio.play();
+      });
+  
+      soundsImage.addEventListener("click", function() {
+        soundsAudio.play();
+      });
+  
+      readingImage.addEventListener("click", function() {
+        readAudio.play();
+      });
+  
+      tennisImage.addEventListener("click", function() {
+        tennisAudio.play();
+      });
+
+      scrollToTop.addEventListener("click", function () {
+  scrollAudio.play();
+  window.scrollTo({
+    top: 0,
+    behavior: "smooth"
+  });
+});
+    </script>
+  </body>
+  </html>
